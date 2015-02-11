@@ -1,0 +1,107 @@
+// *************************************
+//
+// Navigation
+// -> Reusable navigation module
+//
+// *************************************
+
+.Navigation {
+  @include clearfix;
+  text-align: center;
+  margin-top: 75px;
+}
+.menu-line{
+  background:$c-blue;
+  height:5px;
+  width:100%;
+  position: absolute;
+  margin-top: 70px;
+  z-index: -1;
+}
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// Module-variableName
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+.Navigation-list {
+	display: block;
+	margin: 0px;
+  float:right;
+}
+
+.Navigation-link.is-active {
+  text-decoration: underline;
+}
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- List item ----- //
+
+.Navigation-listItem {
+  display: block;
+  margin: 0 rem(15px);
+  float: left;
+  background:$c-blue;
+  padding:5px 10px;
+
+  
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+  a{
+    color:white;
+  }
+}
+
+// ----- Navigation link ----- //
+
+.Navigation-link {
+  text-transform: uppercase;
+}
+
+.Navigation-link--invertedBold {
+  color: $c-white; 
+  font-weight: bold;
+}
+.right-menu{
+  margin-top: 5px;
+  ul{
+    border:5px solid $c-blue;
+  }
+  li{
+    border-bottom:5px solid $c-blue;
+    background:white; 
+    padding:4px;
+    &:first-of-type {
+    background:#c4cf00;
+    }
+     &:last-of-type {
+    border-bottom:0px solid $c-blue;
+    } 
+    a{
+    font-size: 12px;
+    font-weight: bold;
+    }
+  }
+   
+}
