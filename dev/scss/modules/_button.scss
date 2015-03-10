@@ -4,8 +4,19 @@
 // -> All buttons
 //
 // *************************************
-
-.Button {
+button{
+  background-color: white;
+  color: #0900ff;
+  margin: 15px;
+  border: solid 5px;
+  border: 5px;
+  padding: 25px;
+  border-radius: 30px;
+}
+button:hover{
+  background-color:#c4cf00;
+}
+.button {
   display: inline-block;
   font-weight: bold;
   padding: rem(10px) rem(5px);
@@ -26,14 +37,14 @@
 
 // ----- Default ----- //
 
-.Button--default {
+.button--default {
   color: $c-white;
   fill: $c-white;
 }
 
 // ----- Brand ----- //
 
-.Button--brand {
+.button--brand {
   color: $c-white;
   fill: $c-white;
   background: $c-blue;

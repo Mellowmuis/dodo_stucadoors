@@ -109,7 +109,7 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #006991;
+	background: #071827;
 }
 
  /* DIRECTION CONTROLS (NEXT / PREV) */
@@ -212,4 +212,9 @@
 	display: block;
 	font-size: .85em;
 	padding: 10px;
+}
+@media all and (max-width: 640px) { 
+  .slideshow {
+    display: none;
+  }
 }

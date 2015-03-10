@@ -12,6 +12,7 @@
 	<div class="Socket">
 		<div class="u-gridContainer">
 			<!-- Copyright info -->
+			
 			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
 					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
 			</p>

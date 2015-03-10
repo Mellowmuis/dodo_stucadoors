@@ -11,7 +11,7 @@ Template Name: Contactpage
 		<article class="Content Content--fullwidth u-gridContainer" id="post-<?php the_ID(); ?>">
 			<div class="Content-entry">
 				<h2><?php the_title(); ?></h2>
-				<div class="Content-text">
+				<div class="Content-text content">
 
 					<div class="u-gridRow">					
 						<div class="adress u-gridCol4">
@@ -33,7 +33,8 @@ Template Name: Contactpage
 					<div class="hr-style super-margin">
 						<hr>
 					</div>
-					<div class="u-gridRow">						
+					<div class="u-gridRow">	
+										
 						<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>
 						<?php the_content(); ?>
 					

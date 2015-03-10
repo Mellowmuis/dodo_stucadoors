@@ -8,7 +8,7 @@
 .Navigation {
   @include clearfix;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 70px;
 }
 .menu-line{
   background:$c-blue;
@@ -33,9 +33,10 @@
 // -------------------------------------
 
 .Navigation-list {
-	display: block;
+	display: relative;
 	margin: 0px;
   float:right;
+  top: 30px;
 }
 
 .Navigation-link.is-active {
@@ -60,7 +61,8 @@
   float: left;
   background:$c-blue;
   padding:5px 10px;
-
+  margin-left: 0px;
+  top: 0px;
   
   &:first-of-type {
     margin-left: 0;
@@ -88,11 +90,15 @@
   ul{
     border:5px solid $c-blue;
   }
+  li:hover{
+  background-color:#c4cf00;
+}
   li{
     border-bottom:5px solid $c-blue;
     background:white; 
     padding:4px;
-    &:first-of-type {
+
+    li.hover {
     background:#c4cf00;
     }
      &:last-of-type {

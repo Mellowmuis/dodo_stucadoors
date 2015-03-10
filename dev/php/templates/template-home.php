@@ -8,7 +8,7 @@ Template Name: Homepage
 
 	<div class="u-gridContainer">
 		<div class="u-gridRow">
-			<div class="u-gridCol10">
+			<div class="u-gridCol10 slideshow">
 
 				<div class="slider-border">
 					<div class="slider-border-text u-gridCol3"><h2>Ruim 20 jaar de meest betrouwbare partner voor al uw stucwerk!</h2></div>
@@ -42,25 +42,14 @@ Template Name: Homepage
 				</div>	
 			</div>
 			<div class="u-gridCol2 right-menu">
-				<ul>
-					<li><a href="">BETON CIRE</a></li>
-					<li><a href="">TRADITIONEEL STUCWERK</a></li>
-					<li><a href="">CEMENT STUCWERK</a></li>
-					<li><a href="">SIERPLEISTERWERK</a></li>
-					<li><a href="">BUITEN STUCWERK</a></li>
-					<li><a href="">LEEM STUCWERK</a></li>
-					<li><a href="">GLAD PLEISTERSTUCWERK</a></li>
-					<li><a href="">GEVELISOLATIE</a></li>
-					<li><a href="">LIJSTWERK</a></li>
-					<li><a href="">RESTAURATIE LIJSTWERK</a></li>
-					<li><a href="">RESTAURATIE/RENOVATIE</a></li>  
-				</ul>
+				<?php include 'includes/dienstlist.php'; ?>
 			</div>
 		</div>
+
 		<div class="u-gridRow">
 			<div class="u-gridCol2 contact-section content">
-				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vca.png">
-				<ul>
+				<img class="vca" src="<?php echo get_stylesheet_directory_uri(); ?>/img/vca.png">
+				<ul class="vcalijst">
 					<li>Doombos Stucadoor B.V.</li>
 					<li>Sprinckelermaat 14</li>
 					<li>3863 XB Nijkerk</li>
@@ -80,10 +69,12 @@ Template Name: Homepage
 					</div>
 					<div class="u-gridCol4 white-line"><hr></div>
 				</div>
-				<p>Wij staan garant voor stucwerk van de beste kwaliteit. Van standaard stucwerk, tot de meest bijzondere toepassingen:. Met steeds vernieuwende materialen en 
-				technieken en de uitstekende service is uw project bij ons in vertrouwde handen! Wij werken al jaren voor diverse aannemers, architecten, verwerkers, project 
-				ontwikkelaars, particulieren en bedrijven. Werkend vanuit Nijkerk bestrijkt Dodo inmiddels ’t Gooi, Amsterdam en geheel Midden Nederland. Door onze jarenlange 
-				ervaring, gedegen vakkennis en individuele begeleiding leveren we al jaren continuïteit en kwaliteit.</p>
+				<div class="tab_container second">
+						<?php include 'includes/dienstcontent.php'; ?>
+					</div>
+					<!-- .tab_container -->
+			</div>
+
 			</div>
 
 		</div>
