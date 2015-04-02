@@ -1,4 +1,5 @@
 .Footer {
+	display: none;
 }
 
 // RESPONSIVE FOOTER
@@ -16,4 +17,39 @@
 .Footer-inner .widget {
 
 }
+.sitemap{
+	height: 26px;
+}
 
+.Socket {
+	float: right;
+}
+.blauwkleur {
+	color: #005391;
+}
+.oranjekleur{
+	color: #f7942c;
+}
+.lgopmaakt {
+	margin-right: 205px;
+	p {
+		font-weight: bold;
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.lgopmaakt {
+		margin-right: 100px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.lgopmaakt {
+		margin-right: 50px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.lgopmaakt {
+		margin-right: 0px;
+	}
+}

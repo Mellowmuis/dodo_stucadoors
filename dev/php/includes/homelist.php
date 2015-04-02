@@ -13,12 +13,16 @@
 									$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 									$image_url = $image[0];
 
-								
+									if($counter == 0) { 
+										$active = 'class="active"';
+									} else {
+										$active = '';
+									}
 									$counter++;
 
 									?>
 									
-									<li  data-id="<?php the_ID(); ?>" rel="tab<?php echo $counter; ?>"><a><?php the_title(); ?></a></li>
+									<li  <?php echo $active; ?> rel="tab<?php echo $counter; ?>"><a><?php the_title(); ?></a></li>
 									<?php
 								}
 							}

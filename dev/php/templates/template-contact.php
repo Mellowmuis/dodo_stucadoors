@@ -16,11 +16,11 @@ Template Name: Contactpage
 					<div class="u-gridRow">					
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
-								<p>dodo-stucadoors</p>
+								<p>Dodo Stukadoors</p>
 								<p>Sprinckelermaat 14</p>
 								<p>3863 XB Nijkerk</p>
-								<p>Email: info@dodo-stukadoors.nl</p>
-								<p>Tel: 033-2571946</p>
+								<a class="wit" href="mailto:info@dodo-stukadoors.nl"><p>Email: info@dodo-stukadoors.nl</p></a>
+								<a class="wit"href="tel:0332571946"><p>Tel: 033-2571946</p></a>
 							</div>
 	
 						</div>					

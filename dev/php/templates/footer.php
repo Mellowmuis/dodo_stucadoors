@@ -11,13 +11,14 @@
 
 	<div class="Socket">
 		<div class="u-gridContainer">
+			<div class="u-gridRow">
 			<!-- Copyright info -->
-			
-			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
-					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
-			</p>
-		</div>
-	</div>
+				<div class="lgopmaakt">
+					<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
+							<a href="http://www.lokaalgevonden.nl" target="_blank"><span class="blauwkleur">Lokaal</span><span class="oranjekleur">Gevonden</span></a>
+					</p>
+				</div>
+			</div>
 
   <!-- Load jquery from google CDN if possible, with fallback to cdnjs -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>

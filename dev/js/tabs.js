@@ -16,6 +16,10 @@
    $(".tab_drawer_heading").removeClass("d_active");
    $(".tab_drawer_heading[rel^='" + activeTab + "']").addClass("d_active");
 
+   $('html, body').animate({
+     scrollTop: $("#dienstcontentpadding").offset().top - 100
+   }, 400);
+
  });
  /* if in drawer mode */
  $(".tab_drawer_heading").click(function() {
@@ -37,6 +41,23 @@
     of last tab */
  $('ul.tabs li').last().addClass("tab_last");
 
+
+
+ $(document).ready(function() {
+   //kijk of er een getal in de url balk staat
+   var hash = window.location.hash;
+   if (hash != undefined && hash != null && hash != '') {
+     var id = hash.substring(1);
+     //pak de li met dat getal in de data-id attribute
+     //geef die de class active
+
+     $('ul.tabs li[data-id="' + id + '"]').addClass('active').trigger('click');
+
+   } else {
+     //doe de eerste activ emaken
+     $('ul.tabs li').first().addClass('active');
+   }
+ });
 
  //Accordion voor portfolio pagina//
 

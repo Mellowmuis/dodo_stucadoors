@@ -12,7 +12,7 @@
   width: 36px;
   height: 36px;
   border-radius: 7px;
-  margin-top: 7px;	
+  margin-top: 7px;  
   background-color: transparent;
   border: 3px solid white;
   cursor: pointer;
@@ -44,7 +44,6 @@
 .Mob-contact-ico {
 	display: none;
 }
-
 
 //======================================================
 //          @media queries - Responsiveness
@@ -93,7 +92,6 @@
         border: 0px solid;
         box-shadow: 0 0 0 #fff;
 
-
 	}
 
 
@@ -105,7 +103,7 @@
 		width: 100%;
 
 		&:last-of-type {
-			margin-bottom: 15px;
+			margin-bottom: 0px;
 		}
 
 		&:hover {
@@ -140,10 +138,10 @@
         font-size: 20px;
 		padding: 5px;
 		margin: 0;
-		font-weight: 400;
+		font-weight: bold;
 		letter-spacing: 1.7px;
 	    &:hover {
-            background-color: #1e719a;
+            background-color: #c4d000;
             color: white;
         }
 
@@ -169,33 +167,32 @@
 
 			.Icon--inline {
 				fill: white;
-				width: 2em;
-				height: 2em;
-				padding-bottom: 1em;				
+				width: 2.1em;
+				height: 2.1em;
 			}
 		}
 
 		.telsvg {
-			left: 10px;				
+			left: 30px;				
 			.Icon--inline {
-				margin: -4px;
-				margin-top: 5px;
+				margin: 0px;
+				margin-top: 0px;
 			}
 		}
 
 		.tel2svg {
 			left: 55px;				
 			.Icon--inline {
-				margin: -5px;
-				margin-top: 5px;
+				margin: 0px;
+				margin-top: 0px;
 			}
 		}
 
 		.mailsvg {
-			left: 100px;				
+			left: 70px;				
 			.Icon--inline {
-				margin: -4px;
-				margin-top: 5px;
+				margin: 0px;
+				margin-top: 0px;
 			}
 		}
 	}
@@ -206,7 +203,11 @@
     display: none;
   }
 }
-
+@media all and (max-width: 900px) {  
+  .Navigation {
+    margin-top: 10px;
+  }
+}
 @media all and (max-width: 500px) { 
   .logo-top {
     width: 220px;

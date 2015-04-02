@@ -8,7 +8,7 @@
 .Navigation {
   @include clearfix;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 31px;
 }
 .menu-line{
   background:$c-blue;
@@ -37,6 +37,13 @@
 	margin: 0px;
   float:right;
   top: 30px;
+  li:hover{
+    background: #c4d000;
+    border: 3px solid $c-blue;
+  }
+  li {
+    font-weight: bold;
+  }
 }
 
 .Navigation-link.is-active {

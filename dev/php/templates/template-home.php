@@ -11,7 +11,7 @@ Template Name: Homepage
 			<div class="u-gridCol10 slideshow">
 
 				<div class="slider-border">
-					<div class="slider-border-text u-gridCol3"><h2>Ruim 20 jaar de meest betrouwbare partner voor al uw stucwerk!</h2></div>
+					<div class="slider-border-text u-gridCol3"><h2>Welkom op Dodo Stucadoors. Ruim 20 jaar de meest betrouwbare partner voor al uw stucwerk!</h2></div>
 	 				<div class="Slider">
 
 						<?php
@@ -42,41 +42,47 @@ Template Name: Homepage
 				</div>	
 			</div>
 			<div class="u-gridCol2 right-menu">
-				<?php include 'includes/dienstlist.php'; ?>
+				<?php include 'includes/homelist.php'; ?>
 			</div>
 		</div>
 
 		<div class="u-gridRow">
-			<div class="u-gridCol2 contact-section content">
+			<div class="u-gridCol2 contact-section content footerpc">
 				<img class="vca" src="<?php echo get_stylesheet_directory_uri(); ?>/img/vca.png">
 				<ul class="vcalijst">
 					<li>Doombos Stucadoor B.V.</li>
 					<li>Sprinckelermaat 14</li>
 					<li>3863 XB Nijkerk</li>
-					<li>033-2571946</li>
-					<li>info@dodo-stukadoors.nl</li>
+					<a class="wit" href="tel:033-2571946"><li><img class="vca" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sitemaptelefoon.png">033-2571946</li></a> 
+					<a class="wit" href="mailto:info@dodo-stukadoors.nl"><li><img class="vca" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sitemapmail.png">&nbspinfo@dodo-stukadoors.nl</li></a>
 					<div class="sitemap">
+						<br>
+					<span>Sitemap</span>
 					<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 						<?php dynamic_sidebar( 'footer-widgets' ); ?>
 					<?php endif; ?>
 					</div>
 				</ul>
 			</div>
-			<div class="u-gridCol10 content">
+			<div class="u-gridCol10 content box" id="lijst-twee">
 				<div class="u-gridRow">
-					<div class="u-gridCol8 no-margin-right">
+					<div class="u-gridCol12 no-margin-right">
 						<h2>Stucadoorsbedrijf Dodo: specialist in alle soorten stucwerk.</h2>
 					</div>
-					<div class="u-gridCol4 white-line"><hr></div>
 				</div>
 				<div class="tab_container second">
-						<?php include 'includes/dienstcontent.php'; ?>
-					</div>
+					<?php include 'includes/homecontent.php'; ?>
+				</div>
 					<!-- .tab_container -->
 			</div>
-
+			<div class="u-gridRow footermobile">
+				<div class="u-gridCol12 content">
+					<div>
+						<span>Doombos Stucadoor B.V. </span> <span> Sprinckelermaat 14 </span> <span> 3863 XB Nijkerk </span> <span><a href="tel:033-2571946"><img class="vca" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sitemaptelefoon.png">033-2571946</a>
+							<a href="mailto:info@dodo-stukadoors.nl"><img class="vca" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sitemapmail.png">&nbspinfo@dodo-stukadoors.nl</a></span>
+					</div>
+				</div>
 			</div>
-
 		</div>
 	</div>
 

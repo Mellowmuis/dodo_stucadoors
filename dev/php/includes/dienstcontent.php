@@ -23,11 +23,12 @@
 									
 									
 									?>
+
+
 									<h3 class="<?php echo $active;?> tab_drawer_heading" rel="tab<?php echo $counter; ?>"><?php the_title(); ?></h3>
 									<div id="tab<?php echo $counter; ?>" class="tab_content">
 										<h3><?php the_title(); ?></h3>
 									    <p><?php the_content(); ?></p>
-									    <img src="<?php echo image_url; ?>" />
 									</div>									
 								  <?php
 								}

@@ -20,8 +20,8 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,700' rel='stylesheet' type='text/css'>
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/apple-touch-icon.png">
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -49,6 +49,10 @@
             <div class="u-gridCol10">
                 <div class="Bot-Nav">
                     <div class="u-gridContainer">
+                        <div class="bellenenmail">
+                            <a class="withover" href="tel:0332571946"><span>Tel: 033-2571946 </span> <br></a>
+                            <a class="withover" href="mailto:info@dodo-stukadoors.nl"><span>Mail: info@dodo-stukadoors.nl</span></a>
+                        </div>
                     	<div class="Nav-toggle u-cf">
                     		<a class="Navigation-menuToggle" id="js-navCollapse">
                     			<svg class="Icon Icon--inline" viewBox="0 0 128 128">

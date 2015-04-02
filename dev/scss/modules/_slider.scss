@@ -1,3 +1,5 @@
+
+
 .slider-border{
 	border:5px solid $c-blue;
 	margin-top:20px;
@@ -6,8 +8,9 @@
 .slider-border-text{
 	background:$c-blue;
 	padding:5px;
-	position:absolute;
+	position:relative;
 	z-index:9999;
+	width: 100%;
 	h2{
 		font-size: 17px;
 		color:white;

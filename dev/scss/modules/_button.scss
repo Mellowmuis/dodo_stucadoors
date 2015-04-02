@@ -50,6 +50,54 @@ button:hover{
   background: $c-blue;
 }
 
+@media screen and (max-width: 900px) {
+  .Mob-contact-ico .mailsvg {
+    margin-top: 178px;
+    border: 3px solid $c-blue;
+  }
+  .Mob-contact-ico .telsvg {
+    margin-top: 178px;
+    border: 3px solid $c-blue;
+  }
+  .Mob-contact-ico .mailsvg .Icon--inline {
+      margin-top: 1px;
+      background-color: $c-blue;
+  }
+  .Mob-contact-ico .telsvg .Icon--inline {
+      margin-top: 1px;
+      background-color: $c-blue;
+  }
+}
+
+@media screen and (min-width: 900px) {
+.Mob-contact-ico .mailsvg {
+    display: none !important; 
+  }
+  .Mob-contact-ico .telsvg {
+    display: none !important; 
+  }
+  .Mob-contact-ico .mailsvg .Icon--inline {
+    display: none !important; 
+  }
+  .Mob-contact-ico .telsvg .Icon--inline {
+    display: none !important; 
+  }
+}
+
+@media screen and (max-width: 225px) {
+    .Mob-contact-ico .mailsvg {
+    display: none !important; 
+  }
+  .Mob-contact-ico .telsvg {
+    display: none !important; 
+  }
+  .Mob-contact-ico .mailsvg .Icon--inline {
+    display: none !important; 
+  }
+  .Mob-contact-ico .telsvg .Icon--inline {
+    display: none !important; 
+  }
+}
 // -------------------------------------
 // States
 // -------------------------------------

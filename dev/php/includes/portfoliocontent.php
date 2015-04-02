@@ -26,7 +26,6 @@
 			<div id="tab<?php echo $counter; ?>" class="tab_content">
 				<h3><?php the_title(); ?></h3>
 			    <p><?php the_content(); ?></p>
-			    <img src="<?php echo image_url; ?>" />
 			</div>									
 		  <?php
 		}
