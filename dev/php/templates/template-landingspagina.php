@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Homepage
+Template Name: landingspagina
 */
 ?>
 
@@ -72,8 +72,17 @@ Template Name: Homepage
 				</div>
 				<div class="tab_container second">
 					<?php include 'includes/homecontent.php'; ?>
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<article class="Content Content--fullwidth" id="post-<?php the_ID(); ?>">
+						<h2><?php the_title(); ?></h2>
+					<div>
+						<?php the_content(); ?>
+						<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+					</div>
+						</article>
+					<?php endwhile; endif; ?>
 				</div>
-					<!-- .tab_container -->
+					
 			</div>
 			<div class="u-gridRow footermobile">
 				<div class="u-gridCol12 content">
