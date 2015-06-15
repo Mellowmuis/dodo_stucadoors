@@ -1,3 +1,9 @@
+@-moz-document url-prefix() {
+	.bx-viewport{
+		right: 102.5%;
+	}
+}
+
 .content {
 	background:$c-blue;
 	padding:10px;
